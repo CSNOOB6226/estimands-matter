@@ -1,0 +1,181 @@
+"population","variable","level","value","available_n","available_weight"
+"Original complete-case population","N","",15091,15091,167461347.247516
+"Original complete-case population","A","Prevalence (%)",21.3692376787902,15091,167461347.247516
+"Original complete-case population","age","Mean",45.7176063059282,15091,167461347.247516
+"Original complete-case population","sex","Male",48.7808983134897,15091,167461347.247516
+"Original complete-case population","sex","Female",51.2191016865108,15091,167461347.247516
+"Original complete-case population","race","Mexican American",7.07545140457731,15091,167461347.247516
+"Original complete-case population","race","Other Hispanic",4.75062121069941,15091,167461347.247516
+"Original complete-case population","race","Non-Hispanic White",73.3523704983796,15091,167461347.247516
+"Original complete-case population","race","Non-Hispanic Black",10.3647747537724,15091,167461347.247516
+"Original complete-case population","race","Other or multiracial",4.45678213257235,15091,167461347.247516
+"Original complete-case population","education","<9th grade",5.84453280846688,15091,167461347.247516
+"Original complete-case population","education","9th-11th grade",11.9834000169277,15091,167461347.247516
+"Original complete-case population","education","High school/GED",25.5551023307395,15091,167461347.247516
+"Original complete-case population","education","Some college/AA",30.6855052248349,15091,167461347.247516
+"Original complete-case population","education","College graduate",25.9314596190315,15091,167461347.247516
+"Original complete-case population","pir","Mean",3.07233559605242,15091,167461347.247516
+"Original complete-case population","smoking","Never",50.2926756739528,15091,167461347.247516
+"Original complete-case population","smoking","Former",25.3281157623196,15091,167461347.247516
+"Original complete-case population","smoking","Current",24.3792085637281,15091,167461347.247516
+"Original complete-case population","alcohol","Lifetime <12 drinks",11.6196020061357,15091,167461347.247516
+"Original complete-case population","alcohol","No past-year drinking",16.8533649767427,15091,167461347.247516
+"Original complete-case population","alcohol","Past-year drinking",71.5270330171225,15091,167461347.247516
+"Original complete-case population","bmi","Mean",28.2012533936843,15091,167461347.247516
+"Original complete-case population","aerobic","Neither",33.6258157056316,15091,167461347.247516
+"Original complete-case population","aerobic","Moderate only",30.4058971975628,15091,167461347.247516
+"Original complete-case population","aerobic","Vigorous only",10.9459705410437,15091,167461347.247516
+"Original complete-case population","aerobic","Both",25.0223165557624,15091,167461347.247516
+"Original complete-case population","health","Excellent",21.2527115977488,15091,167461347.247516
+"Original complete-case population","health","Very good",32.2305461273202,15091,167461347.247516
+"Original complete-case population","health","Good",31.2431698817264,15091,167461347.247516
+"Original complete-case population","health","Fair",12.5790934182463,15091,167461347.247516
+"Original complete-case population","health","Poor",2.69447897495861,15091,167461347.247516
+"Original complete-case population","diabetes","No",92.3137924467603,15091,167461347.247516
+"Original complete-case population","diabetes","Borderline",1.14751048945625,15091,167461347.247516
+"Original complete-case population","diabetes","Yes",6.53869706378371,15091,167461347.247516
+"Original complete-case population","hypertension","No",72.6481766184877,15091,167461347.247516
+"Original complete-case population","hypertension","Yes",27.3518233815132,15091,167461347.247516
+"Original complete-case population","cvd","No",92.0287559109106,15091,167461347.247516
+"Original complete-case population","cvd","Yes",7.97124408908977,15091,167461347.247516
+"Original complete-case population","cancer","No",92.0650515223772,15091,167461347.247516
+"Original complete-case population","cancer","Yes",7.93494847762299,15091,167461347.247516
+"Original complete-case population","cycle","1999-2000",22.3165343091624,15091,167461347.247516
+"Original complete-case population","cycle","2001-2002",25.7056048487882,15091,167461347.247516
+"Original complete-case population","cycle","2003-2004",25.0517148930394,15091,167461347.247516
+"Original complete-case population","cycle","2005-2006",26.9261459490104,15091,167461347.247516
+"PATE composite population","N","",15091,15091,0.999999999999992
+"PATE composite population","A","Prevalence (%)",50.0000000000004,15091,0.999999999999992
+"PATE composite population","age","Mean",45.8964390577944,15091,0.999999999999992
+"PATE composite population","sex","Male",49.6215996932277,15091,0.999999999999992
+"PATE composite population","sex","Female",50.3784003067729,15091,0.999999999999992
+"PATE composite population","race","Mexican American",7.3562925067678,15091,0.999999999999992
+"PATE composite population","race","Other Hispanic",4.6141420475425,15091,0.999999999999992
+"PATE composite population","race","Non-Hispanic White",73.3828240137742,15091,0.999999999999992
+"PATE composite population","race","Non-Hispanic Black",10.2456917557095,15091,0.999999999999992
+"PATE composite population","race","Other or multiracial",4.40104967620643,15091,0.999999999999992
+"PATE composite population","education","<9th grade",5.48382932169867,15091,0.999999999999992
+"PATE composite population","education","9th-11th grade",12.2018674870888,15091,0.999999999999992
+"PATE composite population","education","High school/GED",25.1661824921954,15091,0.999999999999992
+"PATE composite population","education","Some college/AA",31.2568318902161,15091,0.999999999999992
+"PATE composite population","education","College graduate",25.8912888088018,15091,0.999999999999992
+"PATE composite population","pir","Mean",3.04191098468586,15091,0.999999999999992
+"PATE composite population","smoking","Never",49.5305162237949,15091,0.999999999999992
+"PATE composite population","smoking","Former",25.7475334251565,15091,0.999999999999992
+"PATE composite population","smoking","Current",24.7219503510493,15091,0.999999999999992
+"PATE composite population","alcohol","Lifetime <12 drinks",11.5474519966738,15091,0.999999999999992
+"PATE composite population","alcohol","No past-year drinking",16.641937993724,15091,0.999999999999992
+"PATE composite population","alcohol","Past-year drinking",71.8106100096027,15091,0.999999999999992
+"PATE composite population","bmi","Mean",28.222673920383,15091,0.999999999999992
+"PATE composite population","aerobic","Neither",33.4715500183179,15091,0.999999999999992
+"PATE composite population","aerobic","Moderate only",30.4759711300017,15091,0.999999999999992
+"PATE composite population","aerobic","Vigorous only",10.8886078665545,15091,0.999999999999992
+"PATE composite population","aerobic","Both",25.1638709851266,15091,0.999999999999992
+"PATE composite population","health","Excellent",20.9016386602499,15091,0.999999999999992
+"PATE composite population","health","Very good",32.196077707053,15091,0.999999999999992
+"PATE composite population","health","Good",31.3007256976313,15091,0.999999999999992
+"PATE composite population","health","Fair",12.9727041252721,15091,0.999999999999992
+"PATE composite population","health","Poor",2.62885380979421,15091,0.999999999999992
+"PATE composite population","diabetes","No",91.8993601062468,15091,0.999999999999992
+"PATE composite population","diabetes","Borderline",1.14210460892189,15091,0.999999999999992
+"PATE composite population","diabetes","Yes",6.95853528483137,15091,0.999999999999992
+"PATE composite population","hypertension","No",72.3346459321032,15091,0.999999999999992
+"PATE composite population","hypertension","Yes",27.6653540678972,15091,0.999999999999992
+"PATE composite population","cvd","No",91.8855268599218,15091,0.999999999999992
+"PATE composite population","cvd","Yes",8.11447314007836,15091,0.999999999999992
+"PATE composite population","cancer","No",92.0321242030642,15091,0.999999999999992
+"PATE composite population","cancer","Yes",7.96787579693589,15091,0.999999999999992
+"PATE composite population","cycle","1999-2000",21.7235146370071,15091,0.999999999999992
+"PATE composite population","cycle","2001-2002",25.8923895171311,15091,0.999999999999992
+"PATE composite population","cycle","2003-2004",25.5639942553028,15091,0.999999999999992
+"PATE composite population","cycle","2005-2006",26.8201015905596,15091,0.999999999999992
+"PATO composite population","N","",15091,15091,0.999999999999997
+"PATO composite population","A","Prevalence (%)",50.0000000000002,15091,0.999999999999997
+"PATO composite population","age","Mean",43.7009064038221,15091,0.999999999999997
+"PATO composite population","sex","Male",53.187457206999,15091,0.999999999999997
+"PATO composite population","sex","Female",46.8125427930013,15091,0.999999999999997
+"PATO composite population","race","Mexican American",5.62232239299299,15091,0.999999999999997
+"PATO composite population","race","Other Hispanic",4.18972310776991,15091,0.999999999999997
+"PATO composite population","race","Non-Hispanic White",75.2576693122047,15091,0.999999999999997
+"PATO composite population","race","Non-Hispanic Black",10.4995500702532,15091,0.999999999999997
+"PATO composite population","race","Other or multiracial",4.43073511677907,15091,0.999999999999997
+"PATO composite population","education","<9th grade",2.92756818059813,15091,0.999999999999997
+"PATO composite population","education","9th-11th grade",8.30824847108484,15091,0.999999999999997
+"PATO composite population","education","High school/GED",21.6093961957892,15091,0.999999999999997
+"PATO composite population","education","Some college/AA",33.6406081463491,15091,0.999999999999997
+"PATO composite population","education","College graduate",33.5141790061789,15091,0.999999999999997
+"PATO composite population","pir","Mean",3.35898886709253,15091,0.999999999999997
+"PATO composite population","smoking","Never",53.8151783803754,15091,0.999999999999997
+"PATO composite population","smoking","Former",25.9534062825653,15091,0.999999999999997
+"PATO composite population","smoking","Current",20.2314153370592,15091,0.999999999999997
+"PATO composite population","alcohol","Lifetime <12 drinks",9.24690445975205,15091,0.999999999999997
+"PATO composite population","alcohol","No past-year drinking",12.4826415118987,15091,0.999999999999997
+"PATO composite population","alcohol","Past-year drinking",78.2704540283492,15091,0.999999999999997
+"PATO composite population","bmi","Mean",27.2413592967438,15091,0.999999999999997
+"PATO composite population","aerobic","Neither",14.9766163047265,15091,0.999999999999997
+"PATO composite population","aerobic","Moderate only",27.3398830546878,15091,0.999999999999997
+"PATO composite population","aerobic","Vigorous only",15.8706681176343,15091,0.999999999999997
+"PATO composite population","aerobic","Both",41.8128325229515,15091,0.999999999999997
+"PATO composite population","health","Excellent",26.5659513374914,15091,0.999999999999997
+"PATO composite population","health","Very good",37.0932927463025,15091,0.999999999999997
+"PATO composite population","health","Good",27.4465478997175,15091,0.999999999999997
+"PATO composite population","health","Fair",7.64556724190833,15091,0.999999999999997
+"PATO composite population","health","Poor",1.24864077458033,15091,0.999999999999997
+"PATO composite population","diabetes","No",93.8475611003091,15091,0.999999999999997
+"PATO composite population","diabetes","Borderline",1.01160633651961,15091,0.999999999999997
+"PATO composite population","diabetes","Yes",5.1408325631712,15091,0.999999999999997
+"PATO composite population","hypertension","No",77.227871454748,15091,0.999999999999997
+"PATO composite population","hypertension","Yes",22.7721285452519,15091,0.999999999999997
+"PATO composite population","cvd","No",93.6946048720465,15091,0.999999999999997
+"PATO composite population","cvd","Yes",6.30539512795341,15091,0.999999999999997
+"PATO composite population","cancer","No",92.5881203775592,15091,0.999999999999997
+"PATO composite population","cancer","Yes",7.41187962244072,15091,0.999999999999997
+"PATO composite population","cycle","1999-2000",20.5599353841145,15091,0.999999999999997
+"PATO composite population","cycle","2001-2002",26.3264264250918,15091,0.999999999999997
+"PATO composite population","cycle","2003-2004",25.4123765958739,15091,0.999999999999997
+"PATO composite population","cycle","2005-2006",27.7012615949198,15091,0.999999999999997
+"PATO tilting target","N","",15091,15091,23751879.406582
+"PATO tilting target","A","Prevalence (%)",29.5869015877431,15091,23751879.406582
+"PATO tilting target","age","Mean",43.5967499132734,15091,23751879.406582
+"PATO tilting target","sex","Male",52.8225902811985,15091,23751879.406582
+"PATO tilting target","sex","Female",47.1774097188014,15091,23751879.406582
+"PATO tilting target","race","Mexican American",5.51380342157693,15091,23751879.406582
+"PATO tilting target","race","Other Hispanic",4.17916573990228,15091,23751879.406582
+"PATO tilting target","race","Non-Hispanic White",75.4215465854859,15091,23751879.406582
+"PATO tilting target","race","Non-Hispanic Black",10.482415580089,15091,23751879.406582
+"PATO tilting target","race","Other or multiracial",4.40306867294556,15091,23751879.406582
+"PATO tilting target","education","<9th grade",2.95717547934956,15091,23751879.406582
+"PATO tilting target","education","9th-11th grade",8.22797804814531,15091,23751879.406582
+"PATO tilting target","education","High school/GED",21.6406034914216,15091,23751879.406582
+"PATO tilting target","education","Some college/AA",33.5862140932039,15091,23751879.406582
+"PATO tilting target","education","College graduate",33.5880288878794,15091,23751879.406582
+"PATO tilting target","pir","Mean",3.36618189462461,15091,23751879.406582
+"PATO tilting target","smoking","Never",54.2458275539988,15091,23751879.406582
+"PATO tilting target","smoking","Former",25.6378487483151,15091,23751879.406582
+"PATO tilting target","smoking","Current",20.1163236976857,15091,23751879.406582
+"PATO tilting target","alcohol","Lifetime <12 drinks",9.25002026350257,15091,23751879.406582
+"PATO tilting target","alcohol","No past-year drinking",12.4264234880343,15091,23751879.406582
+"PATO tilting target","alcohol","Past-year drinking",78.323556248463,15091,23751879.406582
+"PATO tilting target","bmi","Mean",27.2529253963549,15091,23751879.406582
+"PATO tilting target","aerobic","Neither",14.991028738919,15091,23751879.406582
+"PATO tilting target","aerobic","Moderate only",27.3455938754974,15091,23751879.406582
+"PATO tilting target","aerobic","Vigorous only",15.9554570503889,15091,23751879.406582
+"PATO tilting target","aerobic","Both",41.7079203351947,15091,23751879.406582
+"PATO tilting target","health","Excellent",26.8166689672115,15091,23751879.406582
+"PATO tilting target","health","Very good",37.1260228635876,15091,23751879.406582
+"PATO tilting target","health","Good",27.2315166007077,15091,23751879.406582
+"PATO tilting target","health","Fair",7.5735551905991,15091,23751879.406582
+"PATO tilting target","health","Poor",1.25223637789386,15091,23751879.406582
+"PATO tilting target","diabetes","No",93.9772735628257,15091,23751879.406582
+"PATO tilting target","diabetes","Borderline",1.02852133694789,15091,23751879.406582
+"PATO tilting target","diabetes","Yes",4.99420510022617,15091,23751879.406582
+"PATO tilting target","hypertension","No",77.4149325787998,15091,23751879.406582
+"PATO tilting target","hypertension","Yes",22.5850674212002,15091,23751879.406582
+"PATO tilting target","cvd","No",93.7860329525287,15091,23751879.406582
+"PATO tilting target","cvd","Yes",6.21396704747103,15091,23751879.406582
+"PATO tilting target","cancer","No",92.5339148942595,15091,23751879.406582
+"PATO tilting target","cancer","Yes",7.46608510574039,15091,23751879.406582
+"PATO tilting target","cycle","1999-2000",20.9619651243449,15091,23751879.406582
+"PATO tilting target","cycle","2001-2002",26.2250284445101,15091,23751879.406582
+"PATO tilting target","cycle","2003-2004",25.1098901977688,15091,23751879.406582
+"PATO tilting target","cycle","2005-2006",27.703116233376,15091,23751879.406582

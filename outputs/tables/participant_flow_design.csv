@@ -1,0 +1,7 @@
+"stage","n","excluded_since_previous"
+"All NHANES participants",41474,
+"Adults age 20+",20311,21163
+"Mortality linkage eligible",20290,21
+"Interpretable strength exposure",19420,870
+"Positive MEC weight",18264,1156
+"Covariate-complete analytic sample",15091,3173

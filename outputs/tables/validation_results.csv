@@ -1,0 +1,7 @@
+"check","status"
+"Independent fixed-width mortality parser","PASS"
+"Exposure and event counts","PASS"
+"Risk contrast arithmetic","PASS"
+"Independent replicate covariance","PASS"
+"Weighted means versus direct ratios","PASS"
+"Independent Cox coefficients","PASS"
