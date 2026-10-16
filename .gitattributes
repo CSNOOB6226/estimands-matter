@@ -1,0 +1,14 @@
+# Preserve checksummed datasets, codebooks, manifests and result tables.
+* -text
+*.R text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+requirements.txt text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+*.xpt -diff
+*.dat -diff
+*.png -diff
+*.pdf -diff
+docs/sources/lmf_readin_official.R -text !eol
