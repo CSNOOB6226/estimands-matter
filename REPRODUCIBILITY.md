@@ -25,9 +25,9 @@ The entry point verifies raw-file checksums and the repository integrity manifes
 
 ## Data and design integrity
 
-The public NHANES component and 2019 mortality files were downloaded on 2026-09-23. `data/download_manifest.csv` records their URLs, UTC timestamps, byte counts, and SHA-256 checksums. Download validation checks file signatures and hashes and does not silently replace changed originals. Some documentation PDF endpoints returned HTTP 403 to direct downloads; their content was inspected through web retrieval. Only public-use mortality records were analyzed.
+The public NHANES component and 2019 mortality files were downloaded on 2026-09-23. `data/download_manifest.csv` records their URLs, UTC timestamps, byte counts, and SHA-256 checksums. Download validation checks file signatures and hashes and does not silently replace changed originals. Some documentation PDF endpoints returned HTTP 403 to direct downloads; those documents were viewed online. Only public-use mortality records were analyzed.
 
-`docs/DESIGN_FROZEN.json` is the repository integrity manifest. It records checksums for the distributed analysis files and reference tables; its legacy `publication_copy` record type is retained for verifier compatibility. See [DESIGN_FREEZE.md](DESIGN_FREEZE.md) for the analysis specification and file checks.
+`docs/DESIGN_FROZEN.json` is the repository integrity manifest. It records checksums for the distributed analysis files and reference tables. See [DESIGN_FREEZE.md](DESIGN_FREEZE.md) for the analysis specification and file checks.
 
 To check the included raw files and repository manifest independently:
 

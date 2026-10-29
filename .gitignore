@@ -13,8 +13,7 @@ venv/
 !.env.example
 /data/derived/*
 !/data/derived/.gitkeep
-/logs/*
-!/logs/.gitkeep
+/logs/
 /vendor/
 /report/qa/
 /tmp/

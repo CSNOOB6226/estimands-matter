@@ -1,6 +1,6 @@
 # Analysis specification and reproducibility
 
-This document describes the definitions and model settings used to reproduce the included NHANES analysis. A reproduction run retains these settings to allow comparison with the reference outputs. The legacy filenames `DESIGN_FREEZE.md` and `docs/DESIGN_FROZEN.json` are retained for compatibility. These documents describe the implemented analysis and file-integrity checks; they are not a public preregistration.
+This document records the definitions, model settings, and file checks for the included NHANES analysis. Use the same settings when reproducing the reference outputs. It describes the implemented analysis and is not a public preregistration.
 
 The analysis is documented in [docs/PROTOCOL.md](docs/PROTOCOL.md), [docs/DAG.md](docs/DAG.md), [docs/ANALYSIS_PLAN.md](docs/ANALYSIS_PLAN.md), [MISSING_DATA_PLAN.md](MISSING_DATA_PLAN.md), and [VARIABLE_DICTIONARY.md](VARIABLE_DICTIONARY.md). The design stages produce `data/derived/design_objects.rds`, containing the propensity-score formula and spline basis.
 

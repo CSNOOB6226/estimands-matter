@@ -7,7 +7,6 @@ import json
 import re
 import sys
 
-
 ROOT = Path(__file__).resolve().parents[1]
 SHA256 = re.compile(r"[0-9a-f]{64}")
 
@@ -21,7 +20,9 @@ def project_path(root, relative):
         raise VerificationError("A manifest entry has an empty or invalid path.")
     path = Path(relative)
     if path.is_absolute() or ".." in path.parts:
-        raise VerificationError(f"Manifest path must stay within the project: {relative}")
+        raise VerificationError(
+            f"Manifest path must stay within the project: {relative}"
+        )
     resolved = (root / path).resolve()
     if not resolved.is_relative_to(root.resolve()):
         raise VerificationError(f"Manifest path leaves the project: {relative}")
@@ -50,7 +51,9 @@ def verify_originals(root):
     with manifest.open(newline="", encoding="utf-8") as stream:
         reader = csv.DictReader(stream)
         if not {"path", "bytes", "sha256"}.issubset(reader.fieldnames or []):
-            raise VerificationError("Download manifest requires path, bytes, and sha256 columns.")
+            raise VerificationError(
+                "Download manifest requires path, bytes, and sha256 columns."
+            )
         rows = list(reader)
     if not rows:
         raise VerificationError("Download manifest has no source-file entries.")
@@ -83,7 +86,9 @@ def verify_originals(root):
                 f"Source-file SHA-256 mismatch: {relative}; expected {expected}, found {actual}."
             )
     if missing:
-        raise VerificationError("Missing source files: " + ", ".join(missing) + ". " + download_hint)
+        raise VerificationError(
+            "Missing source files: " + ", ".join(missing) + ". " + download_hint
+        )
     return len(rows)
 
 
@@ -106,19 +111,34 @@ def verify_hashes(root, entries, label):
 def verify_publication(root):
     marker = root / "docs/DESIGN_FROZEN.json"
     if not marker.is_file():
-        raise VerificationError("Missing publication integrity record: docs/DESIGN_FROZEN.json")
+        raise VerificationError(
+            "Missing publication integrity record: docs/DESIGN_FROZEN.json"
+        )
     try:
         record = json.loads(marker.read_text(encoding="utf-8"))
     except (json.JSONDecodeError, UnicodeDecodeError) as error:
-        raise VerificationError(f"Cannot read publication integrity record: {error}") from None
+        raise VerificationError(
+            f"Cannot read publication integrity record: {error}"
+        ) from None
     if not isinstance(record, dict) or record.get("record_type") != "publication_copy":
-        raise VerificationError("docs/DESIGN_FROZEN.json must identify a publication_copy record.")
+        raise VerificationError(
+            "docs/DESIGN_FROZEN.json must identify a publication_copy record."
+        )
     files = verify_hashes(root, record.get("publication_files"), "publication file")
     references = record.get("reference_tables")
     if not isinstance(references, dict) or len(references) != 27:
-        raise VerificationError("Publication integrity record must contain 27 reference result tables.")
-    if any(not isinstance(path, str) or not path.startswith("outputs/tables/") or not path.endswith(".csv") for path in references):
-        raise VerificationError("Reference result tables must be CSV files within outputs/tables/.")
+        raise VerificationError(
+            "Publication integrity record must contain 27 reference result tables."
+        )
+    if any(
+        not isinstance(path, str)
+        or not path.startswith("outputs/tables/")
+        or not path.endswith(".csv")
+        for path in references
+    ):
+        raise VerificationError(
+            "Reference result tables must be CSV files within outputs/tables/."
+        )
     tables = verify_hashes(root, references, "reference result table")
     return files, tables
 

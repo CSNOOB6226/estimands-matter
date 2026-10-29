@@ -1,4 +1,5 @@
 """Run the NHANES analysis and build the research report."""
+
 import argparse
 import os
 from pathlib import Path
@@ -9,11 +10,26 @@ import sys
 def main():
     root = Path(__file__).resolve().parent
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--download", action="store_true", help="Download or validate official source files")
-    parser.add_argument("--no-report", action="store_true", help="Run the statistical analysis without building PDFs")
+    parser.add_argument(
+        "--download",
+        action="store_true",
+        help="Download or validate official source files",
+    )
+    parser.add_argument(
+        "--no-report",
+        action="store_true",
+        help="Run the statistical analysis without building PDFs",
+    )
     args = parser.parse_args()
     os.chdir(root)
-    for folder in ("data/raw", "data/derived", "outputs/tables", "outputs/figures", "logs", "report"):
+    for folder in (
+        "data/raw",
+        "data/derived",
+        "outputs/tables",
+        "outputs/figures",
+        "logs",
+        "report",
+    ):
         (root / folder).mkdir(parents=True, exist_ok=True)
 
     def run(*command):
